@@ -1,7 +1,7 @@
 class Eleve{
 	private:
-		string NomEleve;
-		string PrenomEleve;
+		string nomEleve;
+		string prenomEleve;
 	public:
 		Eleve(string nom, string prenom);
 };
