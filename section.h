@@ -6,6 +6,9 @@ class Section{
                 string sectionLib;
                 vector<Eleve>vectorEleves;
         public: 
+                Section();
+                void ajoutEleve(Eleve unEleve);
 
 
-}
+
+};
