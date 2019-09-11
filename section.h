@@ -9,7 +9,7 @@ class Section{
                 Section();
                 void ajoutEleve(Eleve unEleve);
                 void affichageEleves();
-                void affichaeSection();
+                void affichageSection();
 
 
 
