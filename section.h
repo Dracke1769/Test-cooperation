@@ -8,6 +8,8 @@ class Section{
         public: 
                 Section();
                 void ajoutEleve(Eleve unEleve);
+                void affichageEleves();
+                void affichaeSection();
 
 
 
