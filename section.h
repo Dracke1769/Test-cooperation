@@ -10,6 +10,7 @@ class Section{
                 void ajoutEleve(Eleve unEleve);
                 void affichageEleves();
                 void affichageSection();
+                void descriptionSection();
 
 
 
