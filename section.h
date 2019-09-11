@@ -5,6 +5,5 @@ class Section{
         private:
                 string sectionLib;
                 vector<Eleve>vectorEleves;
-                
 
 }
