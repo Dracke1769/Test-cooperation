@@ -1,16 +1,13 @@
-Eleve::Eleve(){
-	cout<<"Veuillez rentrer le nom et le prenom de l'élève"<<endl<<endl;
-	cout<<"Le nom ?"<<endl;
-	string nom;
-	getline(cin,nom);
-	cout<<"Le prenom ?"<<endl;
-	string prenom;
-	getline(cin,prenom);
-	nomEleve=nom;
-	prenomEleve=prenom;
+#include "eleve.h"
+
+Eleve::Eleve(string sonNom, string sonPrenom, string saSection)
+{
+	nom=sonNom;
+	prenom=sonPrenom;
+	section=saSection;
 }
 
-void Eleve::afficheNomEleves()
+void Eleve::afficheEleves()
 {
-	cout<<"Nom : "<<nomEleve<<" Prenom : "<<prenomEleve<<endl;
+	cout<<"Nom : "<<nom<<" Prenom : "<<prenom<<" Section "<<section<<endl;
 }

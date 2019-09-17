@@ -1,7 +1,9 @@
 class Eleve{
 	private:
-		string nomEleve;
-		string prenomEleve;
+		string nom;
+		string prenom;
+		string section;
 	public:
-		Eleve(string nom, string prenom);
+		Eleve(string sonNom, string sonPrenom);
+		void afficheEleves();
 };

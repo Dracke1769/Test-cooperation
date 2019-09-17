@@ -11,6 +11,8 @@ class Section{
                 void affichageEleves();
                 void affichageSection();
                 void descriptionSection();
+		void modifierEleve(Eleve unEleve);
+		void supprimerEleve(Eleve unEleve);
 
 
 
