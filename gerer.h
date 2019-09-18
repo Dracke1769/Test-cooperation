@@ -9,5 +9,6 @@ class Gerer
 		Gerer();
 		void ajouterSection();
 		void supprimerSection();
-		void menu();
+		void modifierSection();
+		char menu();
 };

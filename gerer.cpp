@@ -2,11 +2,24 @@
 
 Gerer::Gerer()
 {
+	menu();
+}
+
+char Gerer::menu()
+{
+	cout<<"A : Ajouter une section "<<endl;
+	cout<<"S : Supprimer une section "<<endl;
+	cout<<"D : Afficher les section"<<endl;
+	cout<<"M : Modifier une section"<<endl;
+	char choix;
+	cin>> choix;
+	return choix;
+}
+
+void Gerer::modiferSection(){
 
 }
 
-Gerer::menu()
-{
-	cout<<"1 : Ajouter une section "<<endl;
-	cout<<"2 : Supprimer une section "<<endl;
+void Gerer::afficherSection(){
+	
 }
