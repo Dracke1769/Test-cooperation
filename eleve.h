@@ -9,4 +9,5 @@ class Eleve{
 	public:
 		Eleve(string sonNom, string sonPrenom);
 		void afficheEleves();
+		void ajoutEleve();
 };

@@ -9,5 +9,8 @@ Eleve::Eleve(string sonNom, string sonPrenom, string saSection)
 
 void Eleve::afficheEleves()
 {
-	cout<<"Nom : "<<nom<<" Prenom : "<<prenom<<" Section "<<section<<endl;
+	cout<<"Nom : "<<nom<<" Prenom : "<<prenom<<endl;
+}
+void Eleve::ajoutEleve(){
+	
 }
