@@ -1,3 +1,5 @@
+#include "section.h"
+
 class Gerer
 {
 	private:
