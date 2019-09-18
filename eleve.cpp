@@ -1,5 +1,4 @@
 #include "eleve.h"
-<<<<<<< HEAD
 
 Eleve::Eleve(string sonNom, string sonPrenom, string saSection)
 {
