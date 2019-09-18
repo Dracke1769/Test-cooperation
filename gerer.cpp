@@ -21,5 +21,12 @@ void Gerer::modiferSection(){
 }
 
 void Gerer::afficherSection(){
+
+}
+
+void::ajouterSection(){
+	cout<<"Quel est le nom de la section ? "
+	string sectionLib;
+	getline(cin,sectionLib);
 	
 }
